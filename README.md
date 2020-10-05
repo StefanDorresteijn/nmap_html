@@ -1,24 +1,29 @@
 # ports
+Welcome to the jank.
 
-## Project setup
-```
-yarn install
-```
+### Warning
+Do not use this project, it's stupid and it's not going to help you. I'm making it because I'm sick of scrolling through nmap results in my terminal.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+### Install
+Just clone the project, run `yarn` and you should be done.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+Oh, you need nmap of course.
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Adding scans
+Run an nmap scan, name it after the IP you're scanning and use the xml output type.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```nmap 127.0.0.1 -sC -sV -vv -oX 127.0.0.1.xml```
+
+Put the xml file into the `public/scans` folder of this project.
+
+### Using the application
+Run the application:
+```yarn serve```
+
+Then click the hosts link in the top navigation. Then click the host you've scanned.
+
+From there it's all pretty simple.
+
+Please don't use this.
+
+I love you.
