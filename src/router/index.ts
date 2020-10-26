@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter, { RouteConfig } from 'vue-router';
-import Home from '../views/Home.vue';
 import Host from '../views/Host.vue';
 import Hosts from '../views/Hosts.vue';
 
@@ -9,11 +8,6 @@ Vue.use(VueRouter);
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
-  },
-  {
-    path: '/hosts',
     name: 'Hosts',
     component: Hosts,
   },
