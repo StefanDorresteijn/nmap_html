@@ -27,7 +27,7 @@
       </div>
     </nav>
 
-    <div class="py-10">
+    <div>
       <router-view />
     </div>
   </div>
