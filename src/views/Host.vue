@@ -105,8 +105,10 @@
           </div>
         </div>
         <div class="row">
-          <label for="commentSection" class="block text-sm font-medium leading-5 text-gray-700">Comments</label>
-          <textarea id="commentSection" class="form-input block w-full sm:text-sm sm:leading-5" v-model="host.comment" />
+          <h3 class="text-lg leading-6 font-medium text-gray-900">
+            Comments
+          </h3>
+          <textarea id="commentSection" class="mt-5 form-input block w-full sm:text-sm sm:leading-5" v-model="host.comment" />
         </div>
       </div>
     </div>
